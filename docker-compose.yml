@@ -6,7 +6,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - MESSAGE=Hello from environment!
+      - MESSAGE=Hello from preview 1!
     volumes:
       - ./:/app
       - /app/node_modules
